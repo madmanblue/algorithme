@@ -21,5 +21,5 @@ func BaseSort() {
 	sort.Sort(sort.Reverse(sort.IntSlice(a)))
 	fmt.Println("倒序排序数组", a)
 
-	init.EchoInitInfo()
+	base.EchoInitInfo()
 }

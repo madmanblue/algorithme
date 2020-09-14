@@ -1,7 +1,7 @@
-package init
+package base
 
 import "fmt"
 
 func EchoInitInfo() {
-	fmt.Print("init algorithm project")
+	fmt.Println("init algorithm project")
 }
