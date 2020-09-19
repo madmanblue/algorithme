@@ -1,3 +1,4 @@
+// 这是包注释
 package sort
 
 //	程序启动方式
@@ -11,6 +12,7 @@ import (
 	"sort"
 )
 
+// 这是方法注释
 func BaseSort() {
 	a := []int{20, 18, 30, 3, 90, 22}
 	fmt.Println("未排序前的数组", a)

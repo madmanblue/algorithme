@@ -1,6 +1,11 @@
 package main
 
-import "algorithme/sort"
+import (
+	"algorithme/constant"
+	"algorithme/sort"
+	"algorithme/typeall"
+	"fmt"
+)
 
 func main() {
 	sort.BaseSort()
@@ -8,4 +13,10 @@ func main() {
 	sort.InsertSort(arr)
 	arr1 := []int{8, 7, 9}
 	sort.BubbleSort(arr1, false)
+
+	constant.Col()
+
+	all, os := typeall.TypeAll(typeall.A, typeall.B)
+	fmt.Println("typeall return ", all)
+	fmt.Println("typeall return ", os)
 }
