@@ -22,4 +22,6 @@ func main() {
 
 	sort.SelectSort(arr1)
 	fmt.Println(arr1)
+
+	typeall.StrUtil("fmt.print")
 }
