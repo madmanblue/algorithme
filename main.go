@@ -19,4 +19,7 @@ func main() {
 	all, os := typeall.TypeAll(typeall.A, typeall.B)
 	fmt.Println("typeall return ", all)
 	fmt.Println("typeall return ", os)
+
+	sort.SelectSort(arr1)
+	fmt.Println(arr1)
 }
