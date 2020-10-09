@@ -23,6 +23,9 @@ func main() {
 	//
 	//typeall.StrUtil("fmt.print")
 
-	sort.ShellSort(arr)
+	//sort.ShellSort(arr)
+	//fmt.Println(arr)
+
+	sort.MergeSort(arr)
 	fmt.Println(arr)
 }
